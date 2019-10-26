@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+  <meta charset="UTF-8">
+  <title>Саморазвитие для толковых людей</title>
+  {% load staticfiles %}
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+</head>
+<body>
+
+<span class="d-block p-2 bg-dark text-white">САМОРАЗВИТИЕ ДЛЯ ТОЛКОВЫХ ЛЮДЕЙ</span>
+
+    <div class="jumbotron">
+        <div class="container">
+        <h1></h1>
+               {% block content %}
+               {% endblock %}
+        </p>
+        <p>
+        <a href="/" class="btn btn-success btn-lg">Главная страница</a>
+        <a href="/news" class="btn btn-primary btn-lg">Статьи &raquo;</a>
+         <a href="/contact" class="btn btn-info btn-lg">Контакты &raquo;</a>
+        </p>
+        </div>
+      </div>
+      <div class="container">
+      <img src="{% static 'mainApp/image/Bafet.jpg' %}" class="img-thumbnail">
+     <p>Уоррен Баффетт
+Американский предприниматель</p>
+       <hr>
+      &raquo; Все права защищены 2019
+
+</bdy>
+</html>
