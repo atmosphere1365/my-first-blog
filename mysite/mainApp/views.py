@@ -5,5 +5,4 @@ def index(request):
 
 
 def  contact(request):
-        return render(request, 'mainApp/basic.html', {'content': ['Если у вас остались вопросы, то задавайте их мне по телефону', '(+7)9214805398']} )
-
+        return render(request, 'mainApp/basic.html', {'content': ['ЕСЛИ У ВАС ЕСТЬ КАКИЕ-НИБУДЬ ВОПРОСЫ ПИШИТЕ', 'https://vk.com/id432426376']} )
